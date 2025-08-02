@@ -1,53 +1,63 @@
-<style type="text/css">@font-face {
-font-family: mujfont; src: url("https://erste.plateau.com/icontent/CUSTOM_rot/erstebank/self-managed/CS/DIGIMETOD/DIGIGURUS/Inter-regular.ttf");
+<style type="text/css">
+@font-face {
+    font-family: mujfont;
+    src: url("https://erste.plateau.com/icontent/CUSTOM_rot/erstebank/self-managed/CS/DIGIMETOD/DIGIGURUS/Inter-regular.ttf");
 }
 .programDetailsWrapper {
-background-image: url("https://erste.plateau.com/icontent/CUSTOM_rot/erstebank/self-managed/CS/DCC/KOMPETENCE/ODOLNOST/banner_odolnost.png");
-width: 900px;
-height: 300px;
-background-repeat: no-repeat;
-margin-top: -10px;
+    background-image: url("https://erste.plateau.com/icontent/CUSTOM_rot/erstebank/self-managed/CS/DCC/KOMPETENCE/ODOLNOST/banner_odolnost.png");
+    width: 900px;
+    height: 300px;
+    background-repeat: no-repeat;
+    margin-top: -10px;
 }
 body {
-font-family: mujfont;
+    font-family: mujfont;
 }
 .htmlTruncate {
-display:
+    /* Prázdná třída po odstranění neplatné vlastnosti */
 }
 .fiori .displayCompletionPercent {
-display: none;
+    display: none;
 }
 body:not(.fioriFD) .outterProgressBar {
-display: none;
+    display: none;
 }
 .programIconDefinition .requiredIconDefinition {
-display: none;
+    display: none;
 }
 .fiori .additionalFieldsWrapper {
-display: none;
+    display: none;
 }
 body:not(.fioriFD) .programAgenda .fieldset .legend .agendaSectionHeader {
-background-color: #FF6130;
+    background-color: #FF6130;
 }
-.fiori .globalPortletHeader, .fiori .globalPortletHeader .namedAnchor, .fiori .globalPortletHeader .namedAnchor:link, .fiori .globalPortletHeader .namedAnchor:visited, .fiori .globalPortletHeader .namedAnchor:hover, .fiori .globalPortletHeader .namedAnchor:focus, .fiori .globalPortletHeader .namedAnchor:active {
-background-color: #FF6130;
-color: #FFFFFF;
-font-family: mujfont;
-font-size: 18px;
-margin-left: -15px;
-text-shadow: none;
+.fiori .globalPortletHeader,
+.fiori .globalPortletHeader .namedAnchor,
+.fiori .globalPortletHeader .namedAnchor:link,
+.fiori .globalPortletHeader .namedAnchor:visited,
+.fiori .globalPortletHeader .namedAnchor:hover,
+.fiori .globalPortletHeader .namedAnchor:focus,
+.fiori .globalPortletHeader .namedAnchor:active {
+    background-color: #FF6130;
+    color: #FFFFFF;
+    font-family: mujfont;
+    font-size: 18px;
+    margin-left: -15px;
+    text-shadow: none;
 }
-.fiori .globalRoundedCorners, .fiori .globalRoundedCornersLarge, .fiori .globalRoundedCornersMedium {
-border-radius: 12px 12px 0 0;
+.fiori .globalRoundedCorners,
+.fiori .globalRoundedCornersLarge,
+.fiori .globalRoundedCornersMedium {
+    border-radius: 12px 12px 0 0;
 }
 .agendaSectionBody .programEntry {
-font-family: mujfont;
-font-size: 15px;
-line-height: 1.4;
-padding: 40px 50px 0px 140px;
+    font-family: mujfont;
+    font-size: 15px;
+    line-height: 1.4;
+    padding: 40px 50px 0px 140px;
 }
 .entryRequired {
-display: none;
+    display: none;
 }
 .fiori .globalSecondaryButton {
     background-color: #E4EAF0;
@@ -59,34 +69,34 @@ display: none;
     cursor: pointer;
 }
 .sectionEntryCompletionButton.completed button {
-background-color: #90C683;
-color: #FFFFFF;
-margin: -45px 25px 0 0;
-cursor: pointer;
+    background-color: #90C683;
+    color: #FFFFFF;
+    margin: -45px 25px 0 0;
+    cursor: pointer;
 }
 .programId {
-font-size: 8px;
+    font-size: 8px;
 }
 .sectionItemEntryTitleThumbnail {
-float: left;
-height: 75px;
-width: 75px;
-left: 35px;
-margin-right: 0;
-position: absolute;
+    float: left;
+    height: 75px;
+    width: 75px;
+    left: 35px;
+    margin-right: 0;
+    position: absolute;
 }
 .sectionEntryTitle {
-width: 580px;
+    width: 580px;
 }
 .agendaSectionBody ul li .entryContentDiv {
-margin-top: -10px;
-padding-left: 0px;
-width: 580px;
+    margin-top: -10px;
+    padding-left: 0px;
+    width: 580px;
 }
 .globalRoundedCornersXSmall {
-border-radius: 6px;
-font-family: mujfont;
-border: none;
+    border-radius: 6px;
+    font-family: mujfont;
+    border: none;
 }
 .actionButtons .splitButtonLabelWrapper {
     padding: 8px 20px 5px;
@@ -103,133 +113,125 @@ border: none;
     border: none;
 }
 .agendaSectionBody ul li .entryHeaderDiv .actionButtons a {
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 body:not(.fioriFD) .agendaSectionBody ul li .entryHeaderDiv .actionButtons a {
-color: #FFFFFF;
-font-family: mujfont;
+    color: #FFFFFF;
+    font-family: mujfont;
 }
 .agendaSectionBody ul li .entryHeaderDiv .actionButtons a:hover {
-color: #FFFFFF;
-text-decoration: none;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 .sectionHtmlEntryTitleIconInProgress {
-display: none;
+    display: none;
 }
 .sectionHtmlEntryTitleIconCompleted {
-display: none;
+    display: none;
 }
-.agendaSectionBody ul li .entryHeaderDiv .actionButtons a {
-color: #FFFFFF;
-font-family: mujfont;
-}
-.agendaSectionBody ul li .entryHeaderDiv .actionButtons a:hover {
-color: white;
-text-decoration: none;
-font-family: mujfont;
-}
-html[class~='sapUiSizeCompact'] .fiori .globalPrimaryButton, html[class~='sapUiSizeCompact'] .fiori .globalSecondaryButton {
+html[class~='sapUiSizeCompact'] .fiori .globalPrimaryButton,
+html[class~='sapUiSizeCompact'] .fiori .globalSecondaryButton {
     border-radius: 15px;
     cursor: pointer;
 }
-.splitButton .splitButtonLabelWrapper span, .splitButton .splitButtonLabelWrapper a {
-color: #FFFFFF;
-font-family: mujfont;
+.splitButton .splitButtonLabelWrapper span,
+.splitButton .splitButtonLabelWrapper a {
+    color: #FFFFFF;
+    font-family: mujfont;
 }
-body:not(.fioriFD) .agendaSectionBody ul li .entryHeaderDiv, body:not(.fioriFD) .agendaSectionBody ul li .entryHeaderDiv a {
-font-family: mujfont;
-font-weight: 600;
-color: #303030;
-text-decoration: none;
+body:not(.fioriFD) .agendaSectionBody ul li .entryHeaderDiv,
+body:not(.fioriFD) .agendaSectionBody ul li .entryHeaderDiv a {
+    font-family: mujfont;
+    font-weight: 600;
+    color: #303030;
+    text-decoration: none;
 }
 .htmlTruncate .moreLessLinkContainer {
-margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 .fiori .programDetailsBox {
-color: transparent;
+    color: transparent;
 }
 .programDate {
-display: none;
+    display: none;
 }
 .sectionCompletedIcon.icon-sys-enter-2 {
-display: none;
+    display: none;
 }
 .uvodni {
-margin: 0;
-padding: 15px 0 30px;
-color: #303030;
+    margin: 0;
+    padding: 15px 0 30px;
+    color: #303030;
 }
 .uvodni p {
-margin: 0 0 40px 0;
-text-align: justify;
-line-height: 1.4;
-color: #303030;
+    margin: 0 0 40px 0;
+    text-align: justify;
+    line-height: 1.4;
+    color: #303030;
 }
 h3 {
-font-size: 18px;
-color: #303030;
+    font-size: 18px;
+    color: #303030;
 }
 .job {
-margin: 40px 0 0 0;
-padding: 20px 0 5px;
-line-height: 1.3;
-color: #303030;
+    margin: 40px 0 0 0;
+    padding: 20px 0 5px;
+    line-height: 1.3;
+    color: #303030;
 }
 .btn_thejob {
-margin: 0 0 10px 0;
-padding: 10px 0 50px 0;
-font-size: 14px;
-font-family: mujfont;
-font-weight: 900;
-color: #FFFFFF;
+    margin: 0 0 10px 0;
+    padding: 10px 0 50px 0;
+    font-size: 14px;
+    font-family: mujfont;
+    font-weight: 900;
+    color: #FFFFFF;
 }
 .btn_thejob a {
-border-radius: 6px;
-font-size: 12px;
-font-weight: 900;
-border: none;
-color: #FFFFFF;
-background-color: #135EE2;
-padding: 10px 20px;
-text-decoration: none;
-cursor: pointer;
-color: #FFFFFF;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 900;
+    border: none;
+    color: #FFFFFF;
+    background-color: #135EE2;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
 }
 .btn_thejob a:hover {
-border-radius: 6px;
-font-size: 12px;
-font-weight: 900;
-border: none;
-color: #FFFFFF;
-background-color: #064ea1;
-padding: 10px 20px;
-cursor: pointer;
-text-decoration: none;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 900;
+    border: none;
+    color: #FFFFFF;
+    background-color: #064ea1;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
 }
 .ikona_kompetence_uvod {
-width: 75px;
-height: 75px;
-position: absolute;
-margin: -25px 0 0 -105px;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    margin: -25px 0 0 -105px;
 }
 .ikona_kompetence_job {
-width: 75px;
-height: 75px;
-position: absolute;
-margin: 10px 0 0 -105px;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    margin: 10px 0 0 -105px;
 }
 .sekce_thejob {
-background: #135EE2;
-background: linear-gradient(90deg,rgba(19, 94, 226, 1) 0%, rgba(2, 163, 164, 1) 100%);;
-height: 50px;
-width: 900px;
-position: absolute;
-margin: -25px 0 0 -141px;
+    background: linear-gradient(90deg, rgba(19, 94, 226, 1) 0%, rgba(2, 163, 164, 1) 100%);
+    height: 50px;
+    width: 900px;
+    position: absolute;
+    margin: -25px 0 0 -141px;
 }
 .sekce_thejob p {
-color: #FFFFFF;
-font-size: 18px;
-margin: 10px 0 0 55px;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin: 10px 0 0 55px;
 }
 </style>
 
