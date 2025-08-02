@@ -2,13 +2,11 @@
 font-family: mujfont; src: url("https://erste.plateau.com/icontent/CUSTOM_rot/erstebank/self-managed/CS/DIGIMETOD/DIGIGURUS/Inter-regular.ttf");
 }
 .programDetailsWrapper {
-  background-image: url("https://raw.githubusercontent.com/Sporka-GYM/Odolnost-test/main/Jsem%20efektivn%C3%AD%20(2).png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 900px;
-  height: 300px;
-  margin-top: -50px;
+background-image: url("https://erste.plateau.com/icontent/CUSTOM_rot/erstebank/self-managed/CS/DCC/KOMPETENCE/ODOLNOST/banner_odolnost.png");
+width: 900px;
+height: 300px;
+background-repeat: no-repeat;
+margin-top: -10px;
 }
 body {
 font-family: mujfont;
@@ -52,7 +50,13 @@ padding: 40px 50px 0px 140px;
 display: none;
 }
 .fiori .globalSecondaryButton {
-display: none;
+    background-color: #E4EAF0;
+    color: #303030;
+    border: none;
+    font-family: mujfont;
+    font-size: 13px;
+    margin: -45px 15px 0 0;
+    cursor: pointer;
 }
 .sectionEntryCompletionButton.completed button {
 background-color: #90C683;
@@ -85,18 +89,18 @@ font-family: mujfont;
 border: none;
 }
 .actionButtons .splitButtonLabelWrapper {
-padding: 8px 20px 5px;
-background-color: #135EE2;
-border-radius: 6px;
-cursor: pointer;
-border: none;
+    padding: 8px 20px 5px;
+    background-color: #2870ED;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
 }
 .actionButtons .splitButtonLabelWrapper:hover {
-padding: 8px 20px 5px;
-background-color: #064EA1;
-border-radius: 6px;
-cursor: pointer;
-border: none;
+    padding: 8px 20px 5px;
+    background-color: #064EA1;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
 }
 .agendaSectionBody ul li .entryHeaderDiv .actionButtons a {
 color: #FFFFFF;
@@ -125,7 +129,8 @@ text-decoration: none;
 font-family: mujfont;
 }
 html[class~='sapUiSizeCompact'] .fiori .globalPrimaryButton, html[class~='sapUiSizeCompact'] .fiori .globalSecondaryButton {
-border-radius: 25px;
+    border-radius: 15px;
+    cursor: pointer;
 }
 .splitButton .splitButtonLabelWrapper span, .splitButton .splitButtonLabelWrapper a {
 color: #FFFFFF;
@@ -226,13 +231,6 @@ color: #FFFFFF;
 font-size: 18px;
 margin: 10px 0 0 55px;
 }
-
 </style>
-
-
-
-
-
-
 
 
