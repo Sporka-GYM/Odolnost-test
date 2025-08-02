@@ -2,11 +2,13 @@
 font-family: mujfont; src: url("https://erste.plateau.com/icontent/CUSTOM_rot/erstebank/self-managed/CS/DIGIMETOD/DIGIGURUS/Inter-regular.ttf");
 }
 .programDetailsWrapper {
-background-image: url("https://cdn.jsdelivr.net/gh/Sporka-GYM/Odolnost-test/Jsem%20efektivn%C3%AD.png");
-width: 900px;
-height: 300px;
-background-repeat: no-repeat;
-margin-top: -10px;
+  background-image: url("https://cdn.jsdelivr.net/gh/Sporka-GYM/Odolnost-test/Jsem%20efektivn%C3%AD.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 900px;
+  height: 300px;
+  margin-top: -10px;
 }
 body {
 font-family: mujfont;
@@ -226,4 +228,5 @@ margin: 10px 0 0 55px;
 }
 
 </style>
+
 
